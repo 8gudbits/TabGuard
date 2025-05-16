@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "TabGuard",
+  "version": "1.0.0",
+  "description": "Easily restrict access to specified websites for a focused browsing experience.",
+  "author": "TechWhizKid",
+  "homepage_url": "https://github.com/TechWhizKid/TabGuard",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "alarms",
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  }
+}

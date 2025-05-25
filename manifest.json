@@ -3,8 +3,8 @@
   "name": "TabGuard",
   "version": "1.0.0",
   "description": "Easily restrict access to specified websites for a focused browsing experience.",
-  "author": "TechWhizKid",
-  "homepage_url": "https://github.com/TechWhizKid/TabGuard",
+  "author": "8gudbits",
+  "homepage_url": "https://github.com/8gudbits/TabGuard",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
